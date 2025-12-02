@@ -160,73 +160,84 @@
             </div>
         </section>
 
-        <!-- Works -->
-        <section id="works" class="s-works target-section">
-            <div class="row">
-                <div class="column xl-12">
-                    <div class="section-header" data-num="02">
-                        <h2 class="text-display-title">Selected Projects.</h2>
-                    </div>
-                </div>
+       <!-- Works -->
+<section id="works" class="s-works target-section">
+    <div class="row">
+        <div class="column xl-12">
+            <div class="section-header" data-num="02">
+                <h2 class="text-display-title">Selected Projects.</h2>
             </div>
-            <div class="row folio-entries">
-                <!-- Switch 6 -->
-                <div class="column entry">
-                    <a href="images/switch6.png" class="entry__link glightbox" data-glightbox="title: Switch 6 – Full Platform; description: .entry__desc-01">
-                        <div class="entry__thumb">
-                            <img src="images/switch6.png" srcset="images/switch6.png 1x, images/switch6.png 2x" alt="Switch 6 Mobile App">
-                        </div>
-                        <div class="entry__info">
-                            <h4 class="entry__title">Switch 6</h4>
-                            <div class="entry__cat">Mobile & Web Platform</div>
-                        </div>
-                    </a>
-                    <div class="glightbox-desc entry__desc-01">
-                        <p>
-                            A full-featured platform with <strong>mobile (Flutter)</strong> and <strong>web (React)</strong> interfaces, powered by <strong>Java/Kotlin backend</strong>, <strong>MySQL</strong>, and <strong>FastAPI</strong>. Includes real-time features, user management, and analytics.
-                            <a href="https://switch6-web.vercel.app/" target="_blank">Visit Site</a>
-                        </p>
-                    </div>
-                </div>
-                <!-- Passport Hub -->
-                <div class="column entry">
-                    <a href="images/passporthub.png" class="entry__link glightbox" data-glightbox="title: Passport Hub; description: .entry__desc-02">
-                        <div class="entry__thumb">
-                            <img src="images/passporthub.png" srcset="images/passporthub.png 1x, images/passporthub.png 2x" alt="Passport Hub Dashboard">
-                        </div>
-                        <div class="entry__info">
-                            <h4 class="entry__title">Passport Hub</h4>
-                            <div class="entry__cat">Web Application</div>
-                        </div>
-                    </a>
-                    <div class="glightbox-desc entry__desc-02">
-                        <p>
-                            A travel document management system built with <strong>Laravel (PHP)</strong>, <strong>React</strong>, and <strong>MySQL</strong>. Features secure authentication, document tracking, and admin dashboard.
-                            <a href="https://passporthub.example.com" target="_blank">Visit Site</a>
-                        </p>
-                    </div>
-                </div>
-<!-- 4 Casuals -->
-<div class="column entry full-width-entry">
-    <a href="images/4casuals.png" class="entry__link glightbox" data-glightbox="title: 4 Casuals; description: .entry__desc-03">
-        <div class="entry__thumb">
-            <img src="images/4casuals.png" srcset="images/4casuals.png 1x, images/4casuals.png 2x" alt="4 Casuals – Casual Workforce Management">
         </div>
-        <div class="entry__info">
-            <h4 class="entry__title">4 Casuals</h4>
-            <div class="entry__cat">Workforce Management System</div>
-        </div>
-    </a>
-    <div class="glightbox-desc entry__desc-03">
-        <p>
-            A platform to manage temporary or casual workers assigned to shifts. Built with <strong>Laravel (PHP)</strong>, <strong>React</strong>, and <strong>MySQL</strong>, it enables companies to schedule, track attendance, and manage payments for non-permanent staff.
-            <a href="https://4casualspage.vercel.app/" target="_blank">Visit Site</a>
-        </p>
     </div>
-</div>
-            </div>
-        </section>
 
+    <div class="row folio-entries">
+        <!-- Switch 6 -->
+        <div class="column entry">
+            <div class="project-card">
+                <div class="project-card__thumb">
+                    <img src="images/switch6.png" srcset="images/switch6.png 1x, images/switch6.png 2x" alt="Switch 6 – Mobile & Web Platform">
+                </div>
+                <div class="project-card__content">
+                    <span class="project-card__category">Mobile & Web Platform</span>
+                    <h3 class="project-card__title">Switch 6</h3>
+                    <p class="project-card__desc">
+                        A full-featured platform with mobile (Flutter) and web (React) interfaces, powered by Java/Kotlin backend, MySQL, and FastAPI. Includes real-time features, user management, and analytics.
+                    </p>
+                    <p class="project-card__tech">
+                        <strong>Tech:</strong> Flutter, React, Java, Kotlin, FastAPI, MySQL
+                    </p>
+                    <a href="https://switch6-web.vercel.app/" target="_blank" rel="noopener" class="project-card__link">
+                        Visit Site →
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Passport Hub -->
+        <div class="column entry">
+            <div class="project-card">
+                <div class="project-card__thumb">
+                    <img src="images/passporthub.png" srcset="images/passporthub.png 1x, images/passporthub.png 2x" alt="Passport Hub – Document Management">
+                </div>
+                <div class="project-card__content">
+                    <span class="project-card__category">Web Application</span>
+                    <h3 class="project-card__title">Passport Hub</h3>
+                    <p class="project-card__desc">
+                        A travel document management system built with Laravel (PHP), React, and MySQL. Features secure authentication, document tracking, and admin dashboard.
+                    </p>
+                    <p class="project-card__tech">
+                        <strong>Tech:</strong> Laravel, React, MySQL
+                    </p>
+                    <a href="https://passporthub.example.com" target="_blank" rel="noopener" class="project-card__link">
+                        Visit Site →
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4 Casuals -->
+        <div class="column entry">
+            <div class="project-card">
+                <div class="project-card__thumb">
+                    <img src="images/4casuals.png" srcset="images/4casuals.png 1x, images/4casuals.png 2x" alt="4 Casuals – Workforce Management">
+                </div>
+                <div class="project-card__content">
+                    <span class="project-card__category">Workforce Management System</span>
+                    <h3 class="project-card__title">4 Casuals</h3>
+                    <p class="project-card__desc">
+                        A platform to manage temporary or casual workers assigned to shifts. Built with Laravel (PHP), React, and MySQL, it enables companies to schedule, track attendance, and manage payments for non-permanent staff.
+                    </p>
+                    <p class="project-card__tech">
+                        <strong>Tech:</strong> Laravel, React, MySQL
+                    </p>
+                    <a href="https://4casualspage.vercel.app/" target="_blank" rel="noopener" class="project-card__link">
+                        Visit Site →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         <!-- Numbers -->
         <section id="numbers" class="s-numbers">
             <div class="row counter-items">
